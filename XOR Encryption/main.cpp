@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
+#include "app.hpp"
 
-int main(int argc, const char * argv[]) {
-  // insert code here...
-  std::cout << "Hello, World!\n";
+int main(const int argc, const char **argv) {
+  try {
+    runApp(argc, argv);
+  } catch (std::exception &e) {
+    std::cerr << e.what() << '\n';
+    return 1;
+  }
   return 0;
 }

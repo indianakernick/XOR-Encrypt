@@ -9,24 +9,36 @@
 /* Begin PBXBuildFile section */
 		45FA99261F346F5B00F8C639 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45FA99251F346F5B00F8C639 /* main.cpp */; };
 		45FA992C1F3470F500F8C639 /* encrypt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45FA99221F346F5B00F8C639 /* encrypt */; };
+		45FA992F1F348DE500F8C639 /* encrypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45FA992D1F348DE500F8C639 /* encrypt.cpp */; };
+		45FA99321F348E3300F8C639 /* key.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45FA99301F348E3300F8C639 /* key.cpp */; };
+		45FA99381F3494ED00F8C639 /* app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45FA99361F3494ED00F8C639 /* app.cpp */; };
+		45FA993B1F349B6600F8C639 /* file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45FA99391F349B6600F8C639 /* file.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		45FA99201F346F5B00F8C639 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			buildActionMask = 12;
+			dstPath = /usr/local/bin;
 			dstSubfolderSpec = 0;
 			files = (
 				45FA992C1F3470F500F8C639 /* encrypt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		45FA99221F346F5B00F8C639 /* encrypt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = encrypt; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FA99251F346F5B00F8C639 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		45FA992D1F348DE500F8C639 /* encrypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encrypt.cpp; sourceTree = "<group>"; };
+		45FA992E1F348DE500F8C639 /* encrypt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = encrypt.hpp; sourceTree = "<group>"; };
+		45FA99301F348E3300F8C639 /* key.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = key.cpp; sourceTree = "<group>"; };
+		45FA99311F348E3300F8C639 /* key.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = key.hpp; sourceTree = "<group>"; };
+		45FA99361F3494ED00F8C639 /* app.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = app.cpp; sourceTree = "<group>"; };
+		45FA99371F3494ED00F8C639 /* app.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = app.hpp; sourceTree = "<group>"; };
+		45FA99391F349B6600F8C639 /* file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file.cpp; sourceTree = "<group>"; };
+		45FA993A1F349B6600F8C639 /* file.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = file.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 			isa = PBXGroup;
 			children = (
 				45FA99251F346F5B00F8C639 /* main.cpp */,
+				45FA992D1F348DE500F8C639 /* encrypt.cpp */,
+				45FA992E1F348DE500F8C639 /* encrypt.hpp */,
+				45FA99301F348E3300F8C639 /* key.cpp */,
+				45FA99311F348E3300F8C639 /* key.hpp */,
+				45FA99361F3494ED00F8C639 /* app.cpp */,
+				45FA99371F3494ED00F8C639 /* app.hpp */,
+				45FA99391F349B6600F8C639 /* file.cpp */,
+				45FA993A1F349B6600F8C639 /* file.hpp */,
 			);
 			path = "XOR Encryption";
 			sourceTree = "<group>";
@@ -121,7 +141,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FA99321F348E3300F8C639 /* key.cpp in Sources */,
+				45FA99381F3494ED00F8C639 /* app.cpp in Sources */,
 				45FA99261F346F5B00F8C639 /* main.cpp in Sources */,
+				45FA992F1F348DE500F8C639 /* encrypt.cpp in Sources */,
+				45FA993B1F349B6600F8C639 /* file.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
