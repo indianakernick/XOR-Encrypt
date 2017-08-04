@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45FA99261F346F5B00F8C639 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45FA99251F346F5B00F8C639 /* main.cpp */; };
+		45FA992C1F3470F500F8C639 /* encrypt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45FA99221F346F5B00F8C639 /* encrypt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -17,13 +18,14 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				45FA992C1F3470F500F8C639 /* encrypt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		45FA99221F346F5B00F8C639 /* XOR Encryption */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "XOR Encryption"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FA99221F346F5B00F8C639 /* encrypt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = encrypt; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FA99251F346F5B00F8C639 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +51,7 @@
 		45FA99231F346F5B00F8C639 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45FA99221F346F5B00F8C639 /* XOR Encryption */,
+				45FA99221F346F5B00F8C639 /* encrypt */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45FA99211F346F5B00F8C639 /* XOR Encryption */ = {
+		45FA99211F346F5B00F8C639 /* encrypt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45FA99291F346F5B00F8C639 /* Build configuration list for PBXNativeTarget "XOR Encryption" */;
+			buildConfigurationList = 45FA99291F346F5B00F8C639 /* Build configuration list for PBXNativeTarget "encrypt" */;
 			buildPhases = (
 				45FA991E1F346F5B00F8C639 /* Sources */,
 				45FA991F1F346F5B00F8C639 /* Frameworks */,
@@ -77,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "XOR Encryption";
+			name = encrypt;
 			productName = "XOR Encryption";
-			productReference = 45FA99221F346F5B00F8C639 /* XOR Encryption */;
+			productReference = 45FA99221F346F5B00F8C639 /* encrypt */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45FA99211F346F5B00F8C639 /* XOR Encryption */,
+				45FA99211F346F5B00F8C639 /* encrypt */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +220,17 @@
 		45FA992A1F346F5B00F8C639 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wall",
+					"-Wextra",
+					"-Weffc++",
+					"-Wpedantic",
+					"-Wextra-semi",
+					"-Wno-documentation",
+					"-std=c++1z",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -225,6 +238,17 @@
 		45FA992B1F346F5B00F8C639 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wall",
+					"-Wextra",
+					"-Weffc++",
+					"-Wpedantic",
+					"-Wextra-semi",
+					"-Wno-documentation",
+					"-std=c++1z",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -241,7 +265,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45FA99291F346F5B00F8C639 /* Build configuration list for PBXNativeTarget "XOR Encryption" */ = {
+		45FA99291F346F5B00F8C639 /* Build configuration list for PBXNativeTarget "encrypt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45FA992A1F346F5B00F8C639 /* Debug */,

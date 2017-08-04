@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "45FA99211F346F5B00F8C639"
-               BuildableName = "XOR Encryption"
-               BlueprintName = "XOR Encryption"
+               BuildableName = "encrypt"
+               BlueprintName = "encrypt"
                ReferencedContainer = "container:XOR Encryption.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45FA99211F346F5B00F8C639"
-            BuildableName = "XOR Encryption"
-            BlueprintName = "XOR Encryption"
+            BuildableName = "encrypt"
+            BlueprintName = "encrypt"
             ReferencedContainer = "container:XOR Encryption.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45FA99211F346F5B00F8C639"
-            BuildableName = "XOR Encryption"
-            BlueprintName = "XOR Encryption"
+            BuildableName = "encrypt"
+            BlueprintName = "encrypt"
             ReferencedContainer = "container:XOR Encryption.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45FA99211F346F5B00F8C639"
-            BuildableName = "XOR Encryption"
-            BlueprintName = "XOR Encryption"
+            BuildableName = "encrypt"
+            BlueprintName = "encrypt"
             ReferencedContainer = "container:XOR Encryption.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
